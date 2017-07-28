@@ -1,0 +1,25 @@
+{
+  "name": "changelogger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Greg Poole <greg.poole@domain.com.au>",
+  "license": "MIT",
+  "dependencies": {
+    "keepachangelog": "^0.7.2",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-prettier": "^2.3.0",
+    "prettier": "^1.5.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "prettier"
+    ],
+    "env": {
+      "es6": true,
+      "node": true
+    }
+  }
+}
