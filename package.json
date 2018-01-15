@@ -2,6 +2,7 @@
   "name": "changelogger",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": "bin/changelogger",
   "author": "Greg Poole <greg.poole@domain.com.au>",
   "license": "MIT",
   "dependencies": {
